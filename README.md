@@ -1,7 +1,7 @@
 # Experiment-2
 
 
-Normalization: y
+# Normalization: y
 
 import numpy as np
 
@@ -32,11 +32,13 @@ Normalized:
  [ 0.80496543 -0.85651623  1.01151901  1.08557246  0.21185374]
  [ 0.70680102  0.99878103  0.74865067  0.81097623 -1.26840319]
  [ 0.19697078 -1.80267921 -1.70155366 -1.15314656 -1.67487232]]
-Divisible by 3 Problem:
+
+
+# Divisible by 3 Problem:
 
 import numpy as np
 
-# squares of the first 100 positive integers.
+#Squares of the first 100 positive integers.
 n = np.arange(1, 101)
 s = n ** 2
 

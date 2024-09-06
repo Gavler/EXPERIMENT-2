@@ -19,6 +19,7 @@ np.save('X_normalized.npy', normalized)
 
 print("Variables: \n", X)
 print("\nNormalized: \n", np.load('X_normalized.npy'))
+
 Variables: 
  [[0.38320141 0.78434572 0.59212546 0.96534703 0.800955  ]
  [0.51033724 0.48351184 0.76107414 0.41013179 0.20691759]
@@ -52,6 +53,7 @@ np.save('div_by_3.npy', divisible_by_3)
 
 print("10x10 array: \n", a) 
 print("\nNumbers Divisible by 3: \n", np.load('div_by_3.npy'))
+
 10x10 array: 
  [[    1     4     9    16    25    36    49    64    81   100]
  [  121   144   169   196   225   256   289   324   361   400]

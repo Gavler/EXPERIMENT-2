@@ -5,19 +5,20 @@
 
 import numpy as np
 
-#Create a random 5 x 5 ndarray and store it to variable X.
 X = np.random.rand(5,5)
 
 mean = X.mean()
+
 std = X.std()
 
-#Normalize X.
+
 normalized = (X - mean) /std
 
-#Save your normalized ndarray as X_normalized.npy.
+
 np.save('X_normalized.npy', normalized)
 
 print("Variables: \n", X)
+
 print("\nNormalized: \n", np.load('X_normalized.npy'))
 
 Variables: 
@@ -41,19 +42,22 @@ Normalized:
 
 import numpy as np
 
-#Squares of the first 100 positive integers.
+
 n = np.arange(1, 101)
+
 s = n ** 2
 
-#Create the following 10 x 10 ndarray.
+
 a = s.reshape(10, 10)
-#All the elements that are divisible by 3.
+
+
 divisible_by_3 = s[s % 3 == 0]
 
-#Save the result as div_by_3.npy.
+
 np.save('div_by_3.npy', divisible_by_3)
 
 print("10x10 array: \n", a) 
+
 print("\nNumbers Divisible by 3: \n", np.load('div_by_3.npy'))
 
 10x10 array: 

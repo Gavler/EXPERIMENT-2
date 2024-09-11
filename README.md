@@ -6,6 +6,7 @@ Normalization is one of the most basic preprocessing techniques in
 data analytics. This involves centering and scaling process. Centering means subtracting the data from the
 mean and scaling means dividing with its standard deviation. Mathematically, normalization can be
 expressed as:
+
  ![image](https://github.com/user-attachments/assets/691efe30-e11b-42f3-87e1-84a0a4a705b7)
 
 In Python, element-wise mean and element-wise standard deviation can be obtained by using .mean() and

@@ -1,5 +1,8 @@
 # Experiment-2
 
+Name: Ramirez, Gav Wrangler A.
+
+Section: 2ECE-A
 
 # Normalization:
 Normalization is one of the most basic preprocessing techniques in

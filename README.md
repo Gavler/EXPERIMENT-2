@@ -37,7 +37,7 @@ ndarray as X_normalized.npy.
 
 # OUTPUT
 
-> Variables: 
+ Variables: 
 
 > [[0.38320141 0.78434572 0.59212546 0.96534703 0.800955  ]
  [0.51033724 0.48351184 0.76107414 0.41013179 0.20691759]
@@ -45,7 +45,7 @@ ndarray as X_normalized.npy.
  [0.73388616 0.81499738 0.74551187 0.76282574 0.18518   ]
  [0.59225675 0.03675963 0.06485202 0.21719796 0.07226402]]
 
-> Normalized:
+Normalized:
 
 > [[-0.5555759   0.88844275  0.19649814  1.54000197  0.94823198]
  [-0.09791888 -0.19448355  0.80467091 -0.4586333  -1.19015332]
@@ -92,7 +92,7 @@ From this ndarray, determine all the elements that are divisible by 3. Save the 
 
 # OUTPUT
 
-> 10x10 array of Square integers: 
+ 10x10 array of Square integers: 
 
 > [[    1     4     9    16    25    36    49    64    81   100]
 >
@@ -115,7 +115,7 @@ From this ndarray, determine all the elements that are divisible by 3. Save the 
 > [ 8281  8464  8649  8836  9025  9216  9409  9604  9801 10000]]
  
 
-> Numbers Divisible by 3: 
+ Numbers Divisible by 3: 
 
 >  [[   9   36   81  144  225  324  441  576  729  900 1089]
 >

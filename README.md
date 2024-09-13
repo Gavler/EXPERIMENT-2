@@ -132,5 +132,7 @@ From this ndarray, determine all the elements that are divisible by 3. Save the 
 - 0.3 edited the README file.
 
 - 0.4 revised the .ipynb file; added the files included within the code.
+- 0.5 revised README file.
+  
 
  
